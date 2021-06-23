@@ -1,0 +1,12 @@
+[package]
+name = "simple_window_example_bindings"
+version = "0.0.0"
+edition = "2018"
+
+[dependencies]
+project_reunion = { path = "../../../" }
+windows = "0.12.0"
+
+[build-dependencies]
+project_reunion = { path = "../../../" }
+windows = "0.12.0"

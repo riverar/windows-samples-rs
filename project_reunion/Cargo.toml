@@ -1,0 +1,14 @@
+[package]
+name = "project_reunion"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+bindings = { package = "project_reunion_bindings", path = "bindings" }
+windows = "0.12"
+
+[workspace]
+members = [
+    "examples/*"
+]

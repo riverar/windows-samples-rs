@@ -1,0 +1,10 @@
+[package]
+name = "simple_window_example"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+bindings = { package = "simple_window_example_bindings", path = "bindings" }
+project_reunion = { git = "https://github.com/riverar/windows-samples-rs/", branch="rafael/add-project-reunion-samples" }
+windows = "0.12"
